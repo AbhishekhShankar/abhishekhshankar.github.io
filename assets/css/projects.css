@@ -48,6 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+<<<<<<< HEAD
 /* Box Model */
 
 	*, *:before, *:after {
@@ -89,6 +90,8 @@
 			transition: none !important;
 		}
 
+=======
+>>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 /* Type */
 
 	body {
@@ -285,6 +288,7 @@
 	}
 
 	input, select, textarea {
+<<<<<<< HEAD
 		color: #2e2e2e;
 	}
 
@@ -302,10 +306,30 @@
 
 	blockquote {
 		border-left-color: #2e2e2e;
+=======
+		color: #107d99;
+	}
+
+	a {
+		color: #107d99;
+	}
+
+	strong, b {
+		color: #107d99;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #107d99;
+	}
+
+	blockquote {
+		border-left-color: #107d99;
+>>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 	}
 
 	code {
 		background: none;
+<<<<<<< HEAD
 		border-color: #2e2e2e;
 	}
 
@@ -644,6 +668,15 @@
 			}
 
 		}
+=======
+		border-color: #107d99;
+	}
+
+	hr {
+		border-bottom-color: #107d99;
+	}
+
+>>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 
 /* Header */
 
@@ -908,6 +941,7 @@
 			#navPanel {
 				display: block;
 			}
+<<<<<<< HEAD
 
 		}
 
@@ -955,16 +989,69 @@
 			max-width: 35em;
 			width: calc(100% - 6em);
 			margin: 0 auto;
+
+		}
+
+/* Banner */
+
+	#banner {
+		background-color: #2E2E2E;
+		color: #2E2E2E;
+		padding: 15em 0 27.5em 0;
+		background-color: #0c0c0c;
+		background-image: url("../../images/codeBanner.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 15% left;
+		text-align: left;
+		position: relative;
+		z-index: 9999;
+	}
+
+		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+			color: #fff;
+		}
+
+		#banner:after {
+			-moz-transition: opacity 4s ease;
+			-webkit-transition: opacity 4s ease;
+			-ms-transition: opacity 4s ease;
+			transition: opacity 4s ease;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: block;
+			top: 0;
+			left: 0;
+			background-color: #0c0c0c;
+			opacity: 0.25;
+		}
+
+		#banner .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+			position: relative;
+			z-index: 10000;
+			line-height: 1.5;
 		}
 
 			@media screen and (max-width: 480px) {
 
+
 				#footer .inner {
+				
+				}
+
+				#banner .inner {
 					max-width: 90%;
 					width: 90%;
 				}
 
 			}
+
+
 
 /*Copyright*/
 
@@ -1004,3 +1091,33 @@
 		float: left;
 		padding-right: 15px;
 	}
+
+
+		body.is-loading #banner:after {
+			opacity: 1;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner {
+				padding: 4em 0 2em 0;
+			}
+
+				#banner h1 {
+					font-size: 1.75em;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner {
+				padding: 5em 0 3em 0;
+			}
+
+				Fbanner ul {
+					margin-top: 1em;
+				}
+
+		}
+
