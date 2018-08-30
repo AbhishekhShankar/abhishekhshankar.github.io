@@ -48,7 +48,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-<<<<<<< HEAD
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -57,41 +57,6 @@
 		box-sizing: border-box;
 	}
 
-/* Basic */
-
-	@-ms-viewport {
-		width: device-width;
-	}
-
-	body {
-		-ms-overflow-style: scrollbar;
-	}
-
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
-		}
-
-	}
-
-	body {
-		background: #fff;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-
-=======
->>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 /* Type */
 
 	body {
@@ -288,7 +253,7 @@
 	}
 
 	input, select, textarea {
-<<<<<<< HEAD
+
 		color: #2e2e2e;
 	}
 
@@ -306,12 +271,11 @@
 
 	blockquote {
 		border-left-color: #2e2e2e;
-=======
 		color: #107d99;
 	}
 
 	a {
-		color: #107d99;
+		color: #2e2e2e;
 	}
 
 	strong, b {
@@ -319,17 +283,16 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #107d99;
+		color: #2e2e2e;
 	}
 
 	blockquote {
 		border-left-color: #107d99;
->>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 	}
 
 	code {
 		background: none;
-<<<<<<< HEAD
+
 		border-color: #2e2e2e;
 	}
 
@@ -502,181 +465,7 @@
 		border-top-color: #e5474b;
 	}
 
-/* Section/Article */
 
-	section.special, article.special {
-		text-align: center;
-	}
-
-	section .inner {
-		max-width: 65em;
-		width: calc(100% - 6em);
-		margin: 0 auto;
-	}
-
-		@media screen and (max-width: 480px) {
-
-			section .inner {
-				max-width: 90%;
-				width: 90%;
-			}
-
-		}
-
-	header p {
-		position: relative;
-		margin: 0 0 1.5em 0;
-	}
-
-	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-	}
-
-	header h3 + p {
-		font-size: 1.1em;
-		margin-top: -0.8em;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9em;
-		margin-top: -0.6em;
-	}
-
-	header p {
-		color: #717171;
-	}
-
-
-
-			.wrapper.style2 label {
-				color: #ffffff;
-			}
-
-			.wrapper.style2 input[type="text"],
-			.wrapper.style2 input[type="password"],
-			.wrapper.style2 input[type="email"],
-			.wrapper.style2 select,
-			.wrapper.style2 textarea {
-				background: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.5);
-			}
-
-				.wrapper.style2 input[type="text"]:focus,
-				.wrapper.style2 input[type="password"]:focus,
-				.wrapper.style2 input[type="email"]:focus,
-				.wrapper.style2 select:focus,
-				.wrapper.style2 textarea:focus {
-					border-color: #e5474b;
-					box-shadow: 0 0 0 1px #e5474b;
-				}
-
-			.wrapper.style2 .select-wrapper:before {
-				color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 input[type="checkbox"] + label,
-			.wrapper.style2 input[type="radio"] + label {
-				color: #d5d5d5;
-			}
-
-				.wrapper.style2 input[type="checkbox"] + label:before,
-				.wrapper.style2 input[type="radio"] + label:before {
-					background: rgba(255, 255, 255, 0.075);
-					border-color: rgba(255, 255, 255, 0.15);
-				}
-
-			.wrapper.style2 input[type="checkbox"]:checked + label:before,
-			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #e5474b;
-				border-color: #e5474b;
-				color: #ffffff;
-			}
-
-			.wrapper.style2 input[type="checkbox"]:focus + label:before,
-			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #e5474b;
-				box-shadow: 0 0 0 1px #e5474b;
-			}
-
-			.wrapper.style2 ::-webkit-input-placeholder {
-				color: #bdbdbd !important;
-			}
-
-			.wrapper.style2 :-moz-placeholder {
-				color: #bdbdbd !important;
-			}
-
-			.wrapper.style2 ::-moz-placeholder {
-				color: #bdbdbd !important;
-			}
-
-			.wrapper.style2 :-ms-input-placeholder {
-				color: #bdbdbd !important;
-			}
-
-			.wrapper.style2 .formerize-placeholder {
-				color: #bdbdbd !important;
-			}
-
-			.wrapper.style2 ul.alt li {
-				border-top-color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 header p {
-				color: #bdbdbd;
-			}
-
-			.wrapper.style2 table tbody tr {
-				border-color: rgba(255, 255, 255, 0.15);
-			}
-
-				.wrapper.style2 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-			.wrapper.style2 table th {
-				color: #ffffff;
-			}
-
-			.wrapper.style2 table thead {
-				border-bottom-color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 table tfoot {
-				border-top-color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 table.alt tbody tr td {
-				border-color: rgba(255, 255, 255, 0.15);
-			}
-
-		@media screen and (max-width: 1280px) {
-
-			.wrapper > .inner {
-				width: 65em;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.wrapper > .inner {
-				width: 100%;
-			}
-
-		}
-=======
-		border-color: #107d99;
-	}
-
-	hr {
-		border-bottom-color: #107d99;
-	}
-
->>>>>>> 0f2836562754b810ae794abc72d9b72f43b3f829
 
 /* Header */
 
@@ -941,7 +730,7 @@
 			#navPanel {
 				display: block;
 			}
-<<<<<<< HEAD
+
 
 		}
 
@@ -992,64 +781,7 @@
 
 		}
 
-/* Banner */
 
-	#banner {
-		background-color: #2E2E2E;
-		color: #2E2E2E;
-		padding: 15em 0 27.5em 0;
-		background-color: #0c0c0c;
-		background-image: url("../../images/codeBanner.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 15% left;
-		text-align: left;
-		position: relative;
-		z-index: 9999;
-	}
-
-		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
-		}
-
-		#banner:after {
-			-moz-transition: opacity 4s ease;
-			-webkit-transition: opacity 4s ease;
-			-ms-transition: opacity 4s ease;
-			transition: opacity 4s ease;
-			content: '';
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			display: block;
-			top: 0;
-			left: 0;
-			background-color: #0c0c0c;
-			opacity: 0.25;
-		}
-
-		#banner .inner {
-			max-width: 65em;
-			width: calc(100% - 6em);
-			margin: 0 auto;
-			position: relative;
-			z-index: 10000;
-			line-height: 1.5;
-		}
-
-			@media screen and (max-width: 480px) {
-
-
-				#footer .inner {
-				
-				}
-
-				#banner .inner {
-					max-width: 90%;
-					width: 90%;
-				}
-
-			}
 
 
 
@@ -1091,33 +823,3 @@
 		float: left;
 		padding-right: 15px;
 	}
-
-
-		body.is-loading #banner:after {
-			opacity: 1;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#banner {
-				padding: 4em 0 2em 0;
-			}
-
-				#banner h1 {
-					font-size: 1.75em;
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#banner {
-				padding: 5em 0 3em 0;
-			}
-
-				Fbanner ul {
-					margin-top: 1em;
-				}
-
-		}
-
