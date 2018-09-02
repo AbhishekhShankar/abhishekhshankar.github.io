@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>A. Shankar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<link rel="stylesheet" type="text/css" href="css/bitcoinTSA.css" >
+		
+		<!-- Font awesome icons -->
+		<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" media="screen" />
+
+	</head>
+	<body>
+
+		<!-- Header -->
+
+			<header id="header">
+				<div class="inner">
+					<a href="../index.html" class="logo">HOME</a>
+					<nav id="nav">
+						<a href="../projects.html">PROJECTS</a>
+						<a href="../blog.html">BLOG</a>
+						<a href="docs/resume.pdf">CV</a>
+						<a href="../contact.html">CONTACT</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<div class="main">
+			<h1 class="mainCentering">TIME SERIES ANALYSIS OF DAILY BITCOIN PRICE DATA USING R</h1>
+		</div>
+
+
+		<!-- Banner -->
+		<div>
+			<img class="imgBanner" src="../images/tsaBtcBanner.jpg">
+		</div>
+
+		<!-- Buttons -->
+		<div class=tldrButtons>
+
+			<a href="https://github.com/AbhishekhShankar/Bitcoin-TSA/blob/master/bitcoin.R"><button class="button" style="vertical-align:middle"><span>R Source Code</span></button></a>
+
+			<a href="docs/BitcoinReport.pdf"><button class="button" style="vertical-align:middle"><span>Download report </span></button></a>
+
+		</div>
+
+		<div class="textBody">
+			<p> For those who may not know, Bitcoin is a peer-to-peer cryptocurrency that was created by an unknown person or group of persons known only as Satoshi Nakamoto that relies on encryption techniques to regulate the generation of coins. We were given a dataset sourced from <a href="https://coinmarketcap.com/" style="color: blue">Coinmarketcap</a> which contained the daily closing prices of Bitcoin (in USD), from the 27/04/2013 to 03/03/2018 and were tasked with using R as a means for model fitting and forecasting through time series analysis.
+			</p>
+		</div>	
+
+		<br>
+		<br>
+
+
+	<!-- Ideas banner -->
+		<div class="highlightBanner">
+			<h2 class="highlightTitle">I D E A S</h2>
+			
+			<p>
+				Financial data tends to contain high amounts of variation between the current values in time to their past values. Given this, the conditional variance structure of Bitcoin's time series data can be modelled by utilising approaches that do not include ARIMA models considering their assumption of a constant variance is not helpful in this scenario.
+			</p>
+
+			<p>
+				Considering the main use of an ARCH (Autoregressive Conditional Heteroskedastisity) model is to predict future conditional variances, it is likely that it is useful here. In fact, a GARCH (Generalised ARCH) model may be better considering it allows us to obtain more efficient estimates by placing less weight on past squared returns in order to account for more distant volatitilies in the future.
+			</p>
+
+		</div>
+   			
+
+		<div class="textBody">
+
+			<h2>INITIAL BITCOIN DATA INSPECTION</h2>
+
+			<p> 
+				The entirety of the R code can be found in the link at the top of the page, so there won't be any code snippets on this page in order to prevent it from being overly long, but the source code has been thoroughly commented to make up for this.
+			</p>
+
+			<img class="projectImageBTC" src="../projects/bitcoinImages/tsPlotInspection.jpg">
+			<br>
+			<p> 
+				Plotting the Bitcoin dataset shows multiple trends and periods where volatitility is both high and low which implies the existence of an ARCH effect. We can see from the zoomed in portion of the plot that the data exhibits both autoregressive and moving average behaviours. Also, there does not seem to be any sign of seasonality from the plot. 
+			</p>
+
+
+			<img class="projectImageBTC" src="../projects/bitcoinImages/btcReturn.jpeg">
+			<br>
+			<p> 
+				Looking at the return series, there does not seem to be any kind of trends in the data, however, the volatility in the data is highlighted by the sudden spikes in the variance that occur for short periods of time. This is characteristic of ARCH behaviour.
+			</p>			
+		
+
+			<img class="projectImageBTC" src="../projects/bitcoinImages/returnDiagnostics.jpg">
+			<br>
+			<p>
+				We can look at the diagnostics of the return series as a way to look deeper into the data. The QQ plot displays tails which deviate from the line of normality and while both the ACF and PACF plots show multiple significant correlations, the EACF plot seems to suggest an ARMA(0, 0) model. 
+
+				The results of the McLeod-Li test proved to be highly significant which corresponds to the normality assumption being violated, and agrees with the results of the QQ plot.
+			</p>
+		</div>
+
+
+		<div class="highlightBanner">
+			<h2 class="highlightTitle">T H E O R Y</h2>
+			
+			<p>
+				Considering that ARMA is a mean model while GARCH is a variance model, a combination of an ARMA and a GARCH model may be ideal in this case since ARMA is a mean model while GARCH is a variance model. The GARCH model would be sufficient if we knew that the time series has 0 mean, however that is not the case here and the mean needs to be estimated. There are two ways that we can account for both the mean and the variance in the data: 
+				
+				<li>Fit and subtract an ARMA model first so that only the residuals remain</li> 
+
+				<li>Fit an ARMA + GARCH model simultaneously - which I believe is a more efficient method.</li>
+			</p>
+
+			
+		</div>
+
+		<div class="textBody">
+
+			<h2>GARCH MODEL SPECIFICATION</h2>
+
+			<p> 
+				In order to determine the orders of the GARCH model, we first take the squared and absolute values of the return series since the conditional variances in the GARCH model are constrained to be non-negative.
+			</p>
+
+			<img class="projectImageBTC" src="../projects/bitcoinImages/sqAbsGarch.jpg">
+			<br>
+			<p> 
+				There are multiple significant correlations in both the ACF and PACF of the squared return series and since the vertex of the EACF can be taken at the position (2, 2), the suggested model is no longer an ARMA(0, 0) model, but potentially from a list including:
+			</p>
+
+			<p>
+				<li style="text-align: center;">\( ARMA(2, 2) \)</li>
+  				<li style="text-align: center;">\( ARMA(2, 3) \)</li>
+  				<li style="text-align: center;">\( ARMA(3, 3) \)</li>
+			</p>	
+
+			<p>
+				Similarly, the ACF and PACF of the absolute value return series shows many signifiant correlations. The vertex of the EACF can be taken at the position (1, 1) which corresponds the following potential models:
+			</p>
+
+			<p>
+				<li style="text-align: center;">\(ARMA(1, 1) \)</li>
+				<li style="text-align: center;">\(ARMA(1, 2) \)</li>
+				<li style="text-align: center;">\(ARMA(2, 2) \)</li>
+			</p>
+
+			<p>
+				On a separate proof it was shown that: \(GARCH(p, q) = ARMA(max(p, q), p) \)
+			</p>
+
+			<p>
+				From this, the list of potential models can be considered to be:
+
+				<li style="text-align: center;">\(ARMA(max(1, 1), 1) = GARCH(1, 1) \) </li>
+				<li style="text-align: center;">\(ARMA(max(1, 2), 2) = GARCH(2, 2) \)</li>
+				<li style="text-align: center;">\(ARMA(max(2, 2), 2) = GARCH(2, 2)\)</li>
+				<li style="text-align: center;">\(ARMA(max(3, 3), 3) = GARCH(3, 3)\)</li>
+			</p>
+		</div>	
+
+
+		<div class="textBody">
+
+			<h2>GARCH MODEL FITTING AND ANALYSIS</h2>
+
+			<p> 
+				The R model summary for the \(GARCH(1, 1) \) model is shown below, while the results of the other models can be seen in the report.
+			</p>
+
+			<img style="width: 50%;margin-left: auto;margin-right: auto;"class="projectImageBTC2" src="../projects/bitcoinImages/garch11Summary.jpg">
+			<br>
+
+			<p> 
+				The \( GARCH(1, 1) \) model resulted in all highly significant parameters. Conversely, the \( GARCH(2, 2) \) model had an insignificant \(a_2 \) parameter, while the \( GARCH(3, 3) \) resulted in insignificant \(a_2 \), \(b_1 \), and \(b_3 \) parameters.
+			</p>
+
+			<p>
+				An effective method to determine the ideal model to fit is the Akaike Information Criterion (AIC) which is an estimator of the relative quality of the models against each other.
+
+				The results of the ranking indicated that the best model to fit is the \( GARCH(1, 1) \) model and this aligns with the results of the model summary which determined that it was the only model of the three that had all significant parameters.
+
+			</p>
+
+			<br>
+			<img class="projectImageBTC2" src="../projects/bitcoinImages/sortScoreGarch.jpg">
+			<br>
+
+			<p>
+				A final comparison of models is a look into their residuals. It was observed that every model that was fit had similar residuals.
+
+				There does not seem to be a trend in the plot of the standardised residuals, which are defined as: \(\epsilon = {r_t \over \Sigma_{t|t-1}} \) which are approximately independent and identically distributed variables, indicating the potential for there to be randomness in the residuals which is a good thing for the model being fit. Also, the Shapiro-Wilk test was highly significant for all models indicating non-normality of residuals at a 5% level of significance.
+
+				<img class="projectImageBTC" src="../projects/bitcoinImages/garch11Residuals.jpeg">
+				<br>
+				
+				Given that the residuals of each of the potential GARCH models do not differ significantly, the results of the ranking of the AIC and parameter significance is sufficient enough to conclude that the \( GARCH(1, 1) \) model is the ideal model to fit to the data in order to account for the conditional variance in the dataset.
+			</p>
+		</div>	
+
+		<div class="textBody">
+			<h2>ARMA + GARCH MODEL SPECIFICATION</h2>
+
+			<p> 
+				A good way to determine which model is a nice fit for the data is to attempt to overfit in both the autoregressive and moving average components. Should the overfitted model show insignificant parameters then the model prior to overfitting is a good fit. After obtaining a number of potential models, a number of information criteria tests can be used as a ranking system. 
+			</p>
+			<img class="projectImageBTC" src="../projects/bitcoinImages/armaGarchList.jpg">
+			<br>
+
+			<p>
+			<img class="projectImageBTC" src="../projects/bitcoinImages/finalRanking.jpg">
+			<br>
+			Using four different ranking criterias, the ideal model to fit to the data was the \(ARMA(3, 2) + GARCH(1, 1) \).
+			</p>
+
+		</div>	
+
+		<div class="textBody">
+			<h2>FORECASTING AND MEAN ABSOLUTE STANDARD ERROR</h2>
+
+			<p> 
+				Even though the \(ARMA(3, 2) + GARCH(1, 1) \) model was ranked as the best of the three candidate models, all three models were used to forecast separately and compared. Forecasting was completed for \(h=10 \) steps ahead where each step represents one day. The accuracy of the models and forecasts were done using the mean absolute standard error (MASE) which compares the theoretical values calculated through the model and compares them to the actual values shown in the dataset. A value of 0 indicates that the fitted model is exactly as the data is, while the larger the MASE value, the larger the divergence from reality.
+			</p>
+
+			<p>
+				<img class="projectImageBTC" src="../projects/bitcoinImages/garch11forecastplot.jpeg">
+			<br>
+
+				According to the MASE, the most accurately fit model both terms of model fitting to the data and forecasting was the \(ARMA(2, 1) + GARCH(1, 1) \) model. The plot of the forecasts is shown above, while the MASE values for the fitted model is shown below and the forecasted model results are shown below that.
+			</p>
+
+			<p>
+				<img class="projectImageBTC3" style="width: 35%;" src="../projects/bitcoinImages/maseRanking.jpg">
+			<br>
+
+				<img class="projectImageBTC3" style="width: 35%;" src="../projects/bitcoinImages/forecastRanking.jpg">
+			</p>
+
+			<p>
+				While the ideal model according to the model fitting and overfitting process did not agree with the actual results of the fit and forecast, the differences in the accuracy of the models according to the MASE do tend to be very small. 
+			</p>
+
+			
+		</div>	
+
+
+		<div class="textBody">
+			<h2>FINAL THOUGHTS</h2>
+
+			<p> 
+				Achieving MASE scores close to 0 and below 1 would have been a nice finish to this project, however that was not the case here. Thinking about it a little deeper however, while financial data is volatile, Bitcoin and cryptocurrency data is even more volatile considering people's views regarding it's worth fluctuates and that their smaller market sizes when compared to established currencies can result in large affects on the price from small movements in the market.
+			</p>
+
+			<p>
+				The goal of this project was to be able to fit a model to the data accuractely and forecast accurately as well. Finding some compromise between the two aspects of the analysis required us to accept that our accuracy between the two components is slightly sacrificed in order to achieve a model that is well rounded in terms of its model fitting and its forecasting and we believe we did that.
+			</p>
+			
+		</div>
+
+		<!-- Contact button -->
+
+		<div class=tldrButtons>
+
+			<h3>Want to take part in a project together?</h3>
+			
+			<a href="../contact.html"><button class="button" style="vertical-align:middle"><span>Contact Me</span></button></a>
+
+			<br><br><br>
+
+		</div>
+
+
+				<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h3>Want to get in touch?</h3>
+					<p>If you would like to collaborate, offer suggestions, or talk about anything, then you can contact me at any of the following</p>
+
+					<ul>
+
+						<li><a href="mailto:abhishekh.shankar95@gmail.com" class="far fa-envelope"></a></li>
+
+						<li><a href="https://www.facebook.com/AShankar95" class="fab fa-facebook"></a></li>
+
+						<li><a href="https://github.com/AbhishekhShankar" class="fab fa-github"></a></li>
+
+						<li><a href="https://www.snapchat.com/add/abhishekshankar" class="fab fa-snapchat""></a></li>
+
+						<li><a href="https://www.linkedin.com/in/abhishekhshankar/" class ="fab fa-linkedin"></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; A. Shankar</li>
+						<li>Design: <a href="https://templated.co">TEMPLATED</a>.</li>
+						<li>Cover: <a style="color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@silverhousehd?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Andre Francois"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Andre Francois</span></a></li>
+					</ul>
+
+				</div>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+			</script>
+
+	</body>
+</html>
