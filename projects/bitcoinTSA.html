@@ -101,7 +101,7 @@
 				but the source code has been thoroughly commented to make up for this.
 			</p>
 
-			<img class="projectImageBTC" src="bitcoinImages/tsPlotInspection.jpg">
+			<img class="projectImageBTC" src="bitcoinImages/tsPlotInspection.JPG">
 			<br>
 			<p> 
 				Plotting the Bitcoin dataset shows multiple trends and periods where volatitility is 
@@ -112,7 +112,7 @@
 			</p>
 
 
-			<img class="projectImageBTC" src="bitcoinImages/btcReturn.jpeg">
+			<img class="projectImageBTC" src="bitcoinImages/btcReturn.JPEG">
 			<br>
 			<p> 
 				Looking at the return series, there does not seem to be any kind of trends in the data, 
@@ -121,7 +121,7 @@
 			</p>			
 		
 
-			<img class="projectImageBTC" src="bitcoinImages/returnDiagnostics.jpg">
+			<img class="projectImageBTC" src="bitcoinImages/returnDiagnostics.JPG">
 			<br>
 			<p>
 				We can look at the diagnostics of the return series as a way to look deeper into the 
@@ -150,12 +150,10 @@
 
 				<li>Fit an ARMA + GARCH model simultaneously - which I believe is a more efficient method.</li>
 			</p>
-
-			
 		</div>
 
-		<div class="textBody">
 
+		<div class="textBody">
 			<h2>GARCH MODEL SPECIFICATION</h2>
 
 			<p> 
@@ -164,8 +162,9 @@
 				model are constrained to be non-negative.
 			</p>
 
-			<img class="projectImageBTC" src="bitcoinImages/sqAbsGarch.jpg">
+			<img class="projectImageBTC" src="bitcoinImages/sqAbsGarch.JPG">
 			<br>
+
 			<p> 
 				There are multiple significant correlations in both the ACF and PACF of the squared 
 				return series and since the vertex of the EACF can be taken at the position (2, 2), 
@@ -216,7 +215,7 @@
 			</p>
 
 			<img style="width: 50%;margin-left: auto;margin-right: auto;"class="projectImageBTC2" 
-			src="bitcoinImages/garch11Summary.jpg">
+			src="bitcoinImages/garch11Summary.JPG">
 			<br>
 
 			<p> 
@@ -239,7 +238,7 @@
 			</p>
 
 			<br>
-			<img class="projectImageBTC2" src="bitcoinImages/sortScoreGarch.jpg">
+			<img class="projectImageBTC2" src="bitcoinImages/sortScoreGarch.JPG">
 			<br>
 
 			<p>
@@ -253,7 +252,7 @@
 				Also, the Shapiro-Wilk test was highly significant for all models indicating non-normality 
 				of residuals at a 5% level of significance.
 
-				<img class="projectImageBTC" src="bitcoinImages/garch11Residuals.jpeg">
+				<img class="projectImageBTC" src="bitcoinImages/garch11residuals.jpeg">
 				<br>
 				
 				Given that the residuals of each of the potential GARCH models do not differ 
@@ -273,11 +272,11 @@
 				After obtaining a number of potential models, a number of information criteria tests can 
 				be used as a ranking system. 
 			</p>
-			<img class="projectImageBTC" src="bitcoinImages/armaGarchList.jpg">
+			<img class="projectImageBTC" src="bitcoinImages/armaGarchList.JPG">
 			<br>
 
 			<p>
-			<img class="projectImageBTC" src="bitcoinImages/finalRanking.jpg">
+			<img class="projectImageBTC" src="bitcoinImages/finalRanking.JPG">
 			<br>
 			Using four different ranking criterias, the ideal model to fit to the data was the 
 			\(ARMA(3, 2) + GARCH(1, 1) \).
@@ -310,10 +309,10 @@
 			</p>
 
 			<p>
-				<img class="projectImageBTC3" style="width: 35%;" src="bitcoinImages/maseRanking.jpg">
+				<img class="projectImageBTC3" style="width: 35%;" src="bitcoinImages/maseRanking.JPG">
 			<br>
 
-				<img class="projectImageBTC3" style="width: 35%;" src="bitcoinImages/forecastRanking.jpg">
+				<img class="projectImageBTC3" style="width: 35%;" src="bitcoinImages/forecastRanking.JPG">
 			</p>
 
 			<p>
