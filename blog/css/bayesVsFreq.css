@@ -1,6 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Source+Sans+Pro:400");
-
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400");
 /*
 	Introspect by TEMPLATED
 	templated.co @templatedco
@@ -120,7 +119,7 @@
 	}
 
 		a:hover {
-			text-decoration: underline;
+			text-decoration: blink;
 		}
 
 	strong, b {
@@ -300,6 +299,26 @@
 		border-bottom-color: #2e2e2e;
 	}
 
+/* Icon */
+/*
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}*/
 
 
 /* List */
@@ -443,7 +462,7 @@
 		}
 
 	ul.alt li {
-		border-top-color: #e5474b;
+		border-top-color: #2e2e2e;
 	}
 
 
@@ -778,7 +797,7 @@
 		color: #2e2e2e;
 		text-align: center;
 		padding-top: 50px;
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 	}
 
 	.card {
@@ -803,4 +822,102 @@
 	.imageIcon {
 		float: left;
 		padding-right: 15px;
+	}
+
+/* textBody */
+	.textBody {
+		padding-left: 10em;
+		padding-right: 10em;
+		padding-top: 3em;
+	}
+
+	.imgBanner {
+		width: 100%;
+		height: auto;
+	}
+
+	/* tldr buttons */
+	.tldrButtons {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 35px;
+	}
+
+	.button {
+	  display: inline-block;
+	  border-radius: 4px;
+	  background-color: #325ADB;
+	  border: none;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 20px;
+	  padding: 18px;
+	  width: 210px;
+	  transition: all 0.5s;
+	  cursor: pointer;
+	  margin: 5px;
+	}
+
+	.button span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	.button span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	.button:hover span {
+	  padding-right: 25px;
+	}
+
+	.button:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+
+
+	/* Highlight banner */
+	.highlightBanner {
+		color: white;
+		background: #2E2E2E;
+		width: 100%;
+		padding: 2em 10em 3em 10em;
+	}
+
+	.highlightTitle {
+		color: white;
+	}
+
+	.projectImageBTC {
+		width: 75%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+	.projectImageBTC2 {
+		width: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.projectImageBTC3 {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+
+	.formula {
+
+		text-align: center;
 	}
