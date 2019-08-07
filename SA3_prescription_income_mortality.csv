@@ -1,0 +1,334 @@
+State,SA3_code,SA3_name,Population,Remoteness,SES_quintile,Prescriptions,PrescriptionRate,Median_income,Mortality_rate,Mortality_rate_ratio,Median_age_at_death
+WA,51103,Goldfields,40317,Outer Regional,Quintile 1,22566,55971,62874,367.2,1.11,70
+WA,50703,Kwinana,40305,Major Cities,Quintile 1,26965,66902,53264,422.2,1.03,71
+WA,50601,Armadale,82280,Major Cities,Quintile 1,56674,68880,52800,456.4,0.99,77
+SA,40602,Outback - North and East,27369,Outer Regional,Quintile 1,19278,70436,51202,684.5,1.29,75
+NT,70204,East Arnhem,14802,Remote,Quintile 1,1321,8923,50379,527.5,.,53
+NSW,12703,Liverpool,122238,Major Cities,Quintile 1,52912,43286,49678,500.8,1.04,77
+NSW,10602,Maitland,76134,Major Cities,Quintile 1,48023,63077,49665,648.9,1.1,79
+Qld,30803,Rockhampton,118644,Inner Regional,Quintile 1,93255,78600,49079,716,1.08,79
+Qld,31004,Springfield - Redbank,87095,Major Cities,Quintile 1,46369,53240,48672,284,0.96,67
+Qld,31003,Ipswich Inner,107320,Major Cities,Quintile 1,98540,91819,47959,685.9,1.2,80
+NSW,10604,Upper Hunter,30877,Inner Regional,Quintile 1,22726,73602,47550,698.4,1.08,82
+NSW,12701,Bringelly - Green Valley,106378,Major Cities,Quintile 1,44311,41655,47502,364.3,0.94,74
+NSW,10304,Orange,58991,Inner Regional,Quintile 1,40837,69226,46569,767.8,1.09,81
+WA,51104,Mid West,55127,Outer Regional,Quintile 1,41658,75566,46557,673.6,1.12,77
+Qld,31105,Loganlea - Carbrook,62016,Major Cities,Quintile 1,46379,74785,46522,611.5,1.16,80
+NSW,10301,Bathurst,47783,Inner Regional,Quintile 1,35894,75120,46418,709.6,1.04,80
+NSW,10701,Dapto - Port Kembla,77934,Major Cities,Quintile 1,68285,87619,46342,932.8,1.16,80
+NT,70205,Katherine,20847,Remote,Quintile 1,3469,16640,46284,556.8,1.59,59
+NSW,11603,Mount Druitt,115220,Major Cities,Quintile 1,61337,53234,46268,531.4,1.31,75
+NSW,10601,Lower Hunter,89621,Inner Regional,Quintile 1,77038,85960,46219,799.9,1.26,80
+Vic,20904,Whittlesea - Wallan,224581,Major Cities,Quintile 1,119005,52990,45975,444.3,0.97,80
+SA,40402,Port Adelaide - West,59256,Major Cities,Quintile 1,49099,82859,45970,953.8,1.24,81
+Qld,31001,Forest Lake - Oxley,75209,Major Cities,Quintile 1,45370,60325,45663,472.1,0.94,77
+NT,70201,Alice Springs,39718,Remote,Quintile 1,9595,24158,45662,495.5,1.42,61
+ACT,80103,Canberra East,1569,Major Cities,Quintile 1,1338,85269,45442,,,
+Vic,20504,Latrobe Valley,74170,Inner Regional,Quintile 1,91420,123257,45366,922.4,1.24,79
+Qld,31103,Browns Plains,82568,Major Cities,Quintile 1,58027,70278,45213,440.3,1.1,76
+SA,40204,Salisbury,139529,Major Cities,Quintile 1,113963,81677,44950,666.8,1.19,79
+NSW,11901,Bankstown,178409,Major Cities,Quintile 1,85200,47756,44806,673.6,0.99,82
+Qld,31106,Springwood - Kingston,80066,Major Cities,Quintile 1,60122,75091,44548,533.5,1.14,73
+Qld,31102,Beenleigh,42205,Major Cities,Quintile 1,39819,94348,44158,559.3,0.99,77
+NSW,11303,Wagga Wagga,95644,Inner Regional,Quintile 1,82665,86430,44049,785.1,1.06,80
+NSW,12503,Merrylands - Guildford,157512,Major Cities,Quintile 1,67695,42977,44000,601.6,1.04,82
+Vic,20302,Geelong,192393,Major Cities,Quintile 1,167154,86881,43959,844.2,1.07,83
+NSW,10502,Broken Hill and Far West,20598,Outer Regional,Quintile 1,21950,106561,43952,1142.5,1.32,80
+WA,51001,Kimberley,36392,Remote,Quintile 1,9251,25421,43682,515.1,1.62,59
+NSW,10303,Lithgow - Mudgee,47572,Inner Regional,Quintile 1,40764,85689,43665,956.8,1.2,79
+Vic,21005,Tullamarine - Broadmeadows,169296,Major Cities,Quintile 1,94870,56038,43497,404.3,1.05,73
+Vic,20403,Wodonga - Alpine,70925,Inner Regional,Quintile 1,62818,88570,43472,759.1,1.02,82
+Vic,20101,Ballarat,105564,Inner Regional,Quintile 1,99921,94655,43448,804.7,1.11,82
+SA,40601,Eyre Peninsula and South West,58473,Remote,Quintile 1,51087,87369,43417,856.8,1.15,80
+Tas,60103,Hobart - North West,53290,Inner Regional,Quintile 1,61379,115179,43326,835.3,1.06,82
+NSW,10901,Albury,62504,Inner Regional,Quintile 1,55443,88703,43260,815.7,1.04,84
+Tas,60101,Brighton,17169,Inner Regional,Quintile 1,17727,103253,43115,666.5,1.49,73
+NSW,11004,Tamworth - Gunnedah,82379,Inner Regional,Quintile 1,54451,66098,43043,902.6,1.16,80
+SA,40202,Playford,91465,Major Cities,Quintile 1,96446,105446,42958,710.4,1.3,78
+Qld,31303,Caboolture Hinterland,13668,Inner Regional,Quintile 1,10378,75926,42932,529.6,0.81,73
+NSW,11302,Tumut - Tumbarumba,14686,Inner Regional,Quintile 1,14823,100934,42724,1100.7,1.26,80
+Tas,60401,Burnie - Ulverstone,48581,Outer Regional,Quintile 1,45858,94396,42696,1192.7,1.43,80
+Tas,60201,Launceston,83040,Inner Regional,Quintile 1,61267,73781,42610,981.3,1.23,82
+Vic,21301,Brimbank,196858,Major Cities,Quintile 1,102656,52147,42457,544,1.02,79
+NSW,10503,Dubbo,71138,Inner Regional,Quintile 1,68961,96940,42341,852.1,1.12,82
+NT,70202,Barkly,6241,Remote,Quintile 1,1144,18332,42325,739.8,.,57
+Qld,30701,Darling Downs (West) - Maranoa,44959,Outer Regional,Quintile 1,33050,73511,42205,713.6,1.11,78
+NSW,11003,Moree - Narrabri,26452,Outer Regional,Quintile 1,22180,83851,42016,827,1.34,78
+NSW,12702,Fairfield,193076,Major Cities,Quintile 1,79823,41343,41981,559.6,0.96,80
+Qld,30602,Cairns - South,104395,Outer Regional,Quintile 1,74903,71750,41846,594.4,1.12,75
+NSW,11902,Canterbury,141819,Major Cities,Quintile 1,54018,38089,41593,534.8,0.87,81
+NSW,10501,Bourke - Cobar - Coonamble,25059,Remote,Quintile 1,27464,109598,41410,874.5,1.36,73.5
+Qld,31301,Bribie - Beachmere,33613,Inner Regional,Quintile 1,47729,141997,41348,1026.9,0.89,78
+Qld,31101,Beaudesert,14242,Inner Regional,Quintile 1,10628,74622,40941,778.5,1.01,82
+NSW,11301,Griffith - Murrumbidgee (West),49464,Outer Regional,Quintile 1,45091,91159,40858,781.3,1.05,81
+Vic,21204,Dandenong,197453,Major Cities,Quintile 1,103485,52410,40755,645.3,0.98,82
+SA,40503,Mid North,27890,Outer Regional,Quintile 1,31629,113406,40665,1144.6,1.28,81
+Qld,31905,Maryborough,45530,Inner Regional,Quintile 1,55525,121953,40392,902.1,1.12,78
+Vic,21603,Shepparton,64888,Inner Regional,Quintile 1,59342,91453,40379,904.2,1.24,82
+Tas,60402,Devonport,45272,Inner Regional,Quintile 1,42327,93496,40208,948.9,1.17,80
+NSW,12501,Auburn,94077,Major Cities,Quintile 1,25319,26913,40000,377.9,0.92,82
+SA,40702,Limestone Coast,66683,Outer Regional,Quintile 1,52971,79436,39996,828.9,1.08,81
+Qld,31302,Caboolture,69426,Major Cities,Quintile 1,68449,98593,39856,690.1,1.25,79
+Tas,60301,Central Highlands (Tas.),11424,Outer Regional,Quintile 1,14414,126172,39855,583.9,0.99,76
+WA,50903,Wheat Belt - South,20545,Outer Regional,Quintile 1,17011,82798,39683,739.1,1.06,80
+Vic,21701,Glenelg - Southern Grampians,35855,Outer Regional,Quintile 1,34542,96338,39450,1136.1,1.19,82
+NSW,11202,Richmond Valley - Hinterland,71294,Inner Regional,Quintile 1,55815,78288,39429,898.1,1.12,81
+Tas,60203,North East,37679,Outer Regional,Quintile 1,35556,94364,39408,941.7,1.18,77
+Qld,31904,Hervey Bay,57490,Inner Regional,Quintile 1,67781,117901,38917,994.2,1.07,79
+NSW,11001,Armidale,38098,Inner Regional,Quintile 1,25097,65875,38812,807.8,1.13,81
+Vic,21501,Grampians,59330,Outer Regional,Quintile 1,72272,121814,38592,1063.1,1.05,83
+Vic,21602,Moira,29306,Inner Regional,Quintile 1,32743,111727,38444,1203.1,1.22,81
+NSW,10302,Lachlan Valley,56416,Outer Regional,Quintile 1,53736,95249,38423,1084.6,1.18,81
+Vic,21502,Mildura,54564,Outer Regional,Quintile 1,55991,102616,38134,847.9,1.06,82
+NSW,10805,Taree - Gloucester,54761,Inner Regional,Quintile 1,56314,102836,37912,1165.1,1.2,79
+Vic,20203,Loddon - Elmore,11472,Inner Regional,Quintile 1,13115,114324,37818,1042.4,1.12,84
+Qld,31901,Bundaberg,89276,Inner Regional,Quintile 1,87556,98074,37642,931.1,1.08,81
+Vic,20103,Maryborough - Pyrenees,25475,Inner Regional,Quintile 1,31164,122331,37630,1089.8,1.2,80
+NSW,10401,Clarence Valley,50961,Inner Regional,Quintile 1,51974,101987,37500,1102.6,1.13,80
+Qld,31903,Gympie - Cooloola,50216,Inner Regional,Quintile 1,55631,110784,37500,806.4,1.04,79
+NSW,11002,Inverell - Tenterfield,38858,Outer Regional,Quintile 1,35949,92513,37075,970.5,1.11,80
+Qld,31501,Far North,33772,Remote,Quintile 1,11249,33309,36603,478.4,1.32,68
+SA,40703,Murray and Mallee,71368,Outer Regional,Quintile 1,74357,104188,36395,877.9,1.05,79.5
+NSW,10802,Kempsey - Nambucca,49005,Outer Regional,Quintile 1,58879,120150,36332,1129.5,1.17,83
+NT,70203,Daly - Tiwi - West Arnhem,18216,Remote,Quintile 1,1828,10036,36125,642.6,1.83,54
+Vic,21503,Murray River - Swan Hill,37697,Outer Regional,Quintile 1,37987,100770,35852,1020.4,1.08,82
+SA,40504,Yorke Peninsula,25729,Outer Regional,Quintile 1,34905,135665,35825,1230.4,1.11,82
+Qld,31902,Burnett,49852,Inner Regional,Quintile 1,51272,102849,35737,870.6,1.14,78
+Qld,30703,Granite Belt,40664,Inner Regional,Quintile 1,35544,87410,35724,1014.5,1.22,80
+NSW,10801,Great Lakes,31895,Inner Regional,Quintile 1,37279,116881,35331,1457.6,1.1,84
+Qld,30605,Tablelands (East) - Kuranda,41330,Outer Regional,Quintile 1,32737,79209,35318,784.1,1.02,77.5
+Qld,30603,Innisfail - Cassowary Coast,35601,Outer Regional,Quintile 1,31811,89354,35000,836,1.19,78
+Tas,60303,South East Coast,6891,Outer Regional,Quintile 1,9527,138248,33430,932.7,1.04,80
+NSW,10902,Lower Murray,12737,Outer Regional,Quintile 1,12530,98371,33389,995.8,1.34,80
+WA,51003,West Pilbara,35434,Remote,Quintile 2,8546,24117,85409,152.6,.,54
+WA,51002,East Pilbara,26001,Remote,Quintile 2,7011,26966,79725,245.2,1.04,57
+Other Territories,90101,Christmas Island,1903,Remote,Quintile 2,327,17183,75647,,,
+Qld,30805,Gladstone,63288,Inner Regional,Quintile 2,39120,61813,65892,411.2,0.98,74
+Qld,31502,Outback - North,30688,Remote,Quintile 2,12541,40865,57208,518.4,1.4,67
+Vic,21302,Hobsons Bay,88342,Major Cities,Quintile 2,50713,57405,53198,707.1,1.01,82
+Qld,31202,Mackay,117703,Inner Regional,Quintile 2,71505,60750,53080,550.6,1.01,78
+Qld,31201,Bowen Basin - North,34349,Outer Regional,Quintile 2,20437,59499,51604,444.8,1.09,78
+Other Territories,90104,Norfolk Island,1756,Remote,Quintile 2,782,44533,51342,,,
+NSW,11701,Botany,49169,Major Cities,Quintile 2,19642,39947,50730,608,1.03,79
+WA,50604,Gosnells,122128,Major Cities,Quintile 2,74038,60623,50416,431.6,0.89,76
+Qld,31802,Townsville,192113,Outer Regional,Quintile 2,145619,75798,50375,542.5,1.12,76
+WA,50102,Bunbury,104838,Inner Regional,Quintile 2,80806,77077,50000,588.2,0.98,78
+Qld,30804,Biloela,14607,Outer Regional,Quintile 2,9768,66874,49623,589.9,1,77
+NSW,10704,Wollongong,133292,Major Cities,Quintile 2,86597,64968,49427,727.2,0.96,82
+NSW,11601,Blacktown,139391,Major Cities,Quintile 2,65105,46707,48907,526.8,0.98,78
+NSW,11103,Newcastle,169571,Major Cities,Quintile 2,102976,60728,48200,928.3,1.25,82
+NSW,12302,Campbelltown (NSW),162845,Major Cities,Quintile 2,100601,61777,47592,503.2,1.12,76
+SA,40201,Gawler - Two Wells,34893,Major Cities,Quintile 2,33180,95091,47525,738.8,1.05,81
+SA,40401,Charles Sturt,111505,Major Cities,Quintile 2,77026,69078,46960,942.1,1.05,84
+Vic,21203,Casey - South,176002,Major Cities,Quintile 2,101284,57547,46344,349,0.97,78
+Vic,21003,Moreland - North,79587,Major Cities,Quintile 2,48054,60379,46162,931.3,1.01,85
+SA,40403,West Torrens,62758,Major Cities,Quintile 2,38381,61157,46090,874.9,0.94,85
+SA,40203,Port Adelaide - East,69599,Major Cities,Quintile 2,47694,68527,46008,775.6,1.16,80
+Qld,31305,Redcliffe,61229,Major Cities,Quintile 2,64264,104956,45879,1079.3,1.19,81
+Vic,21401,Frankston,139511,Major Cities,Quintile 2,117128,83956,45776,707.6,1.08,81
+NSW,11102,Lake Macquarie - West,77075,Major Cities,Quintile 2,65689,85227,45694,1133,1.25,83
+SA,40304,Onkaparinga,170376,Major Cities,Quintile 2,158348,92941,45177,651,0.95,82
+Qld,31701,Toowoomba,153201,Inner Regional,Quintile 2,128388,83804,44964,726.3,1.03,81
+SA,40501,Barossa,36493,Inner Regional,Quintile 2,27101,74263,44891,801.3,1.05,84
+NSW,10105,Goulburn - Mulwaree,36182,Inner Regional,Quintile 2,31924,88232,44123,930.9,1.15,80
+WA,50902,Wheat Belt - North,56584,Inner Regional,Quintile 2,47382,83738,44096,727.2,1.06,78
+NSW,10202,Wyong,162052,Major Cities,Quintile 2,155201,95772,43803,967.1,1.12,81
+Qld,31002,Ipswich Hinterland,64124,Inner Regional,Quintile 2,66318,103422,43725,696.6,1.12,76
+Vic,20902,Darebin - North,99751,Major Cities,Quintile 2,55722,55861,43702,822.6,1.08,83
+Tas,60106,Sorell - Dodges Ferry,16061,Inner Regional,Quintile 2,18511,115253,43469,721.7,1.02,79
+Qld,30702,Darling Downs - East,42999,Inner Regional,Quintile 2,40350,93840,43396,943.6,1.33,80
+NSW,10603,Port Stephens,73036,Inner Regional,Quintile 2,62572,85672,43345,874.4,0.99,81
+Vic,20201,Bendigo,95587,Inner Regional,Quintile 2,82077,85867,43078,868.4,1.11,83
+Vic,20505,Wellington,43354,Inner Regional,Quintile 2,40729,93946,42498,980.3,1.23,82
+Qld,30903,Gold Coast - North,68379,Major Cities,Quintile 2,61448,89863,41723,941.1,1.01,82
+WA,51101,Esperance,16289,Remote,Quintile 2,10095,61977,41307,877,1.42,79
+Tas,60403,West Coast,17713,Outer Regional,Quintile 2,14584,82337,41139,766.1,1.32,76
+Qld,31503,Outback - South,17992,Remote,Quintile 2,12022,66816,40927,767.9,1.12,75
+WA,51102,Gascoyne,9757,Remote,Quintile 2,5812,59566,40923,517.8,1.08,74
+Qld,31203,Whitsunday,21840,Outer Regional,Quintile 2,15974,73142,40720,413.6,0.95,74
+NSW,10804,Port Macquarie,79929,Inner Regional,Quintile 2,79173,99054,40430,1141.2,1.03,83
+Qld,31603,Maroochy,58359,Major Cities,Quintile 2,49117,84164,40320,716.5,0.9,82
+Vic,21601,Campaspe,37582,Inner Regional,Quintile 2,40522,107824,39999,1005.6,1.12,81
+Qld,31801,Charters Towers - Ayr - Ingham,42924,Outer Regional,Quintile 2,34550,80492,39553,928.3,1.12,80
+Tas,60202,Meander Valley - West Tamar,22818,Outer Regional,Quintile 2,21893,95948,39548,760.5,0.99,76
+NSW,11203,Tweed Valley,93458,Major Cities,Quintile 2,85478,91461,39260,1110.6,1.02,82
+NSW,11401,Shoalhaven,101617,Inner Regional,Quintile 2,107819,106103,38972,1132.3,1.13,81
+NSW,10903,Upper Murray exc. Albury,42542,Inner Regional,Quintile 2,47756,112257,38875,1151,1.16,80
+NSW,10402,Coffs Harbour,87943,Inner Regional,Quintile 2,80468,91500,38280,834.8,0.96,82
+SA,40502,Lower North,23051,Inner Regional,Quintile 2,22549,97822,38121,1036,1.11,83
+Vic,21703,Colac - Corangamite,37504,Inner Regional,Quintile 2,32563,86826,37585,1145.4,1.28,83
+Vic,20502,Gippsland - East,45537,Outer Regional,Quintile 2,48677,106895,37047,1058.3,1.07,80.5
+SA,40701,Fleurieu - Kangaroo Island,51719,Inner Regional,Quintile 2,53233,102926,36746,1003.9,0.89,83
+Vic,20503,Gippsland - South West,62409,Inner Regional,Quintile 2,64462,103290,36704,978.6,0.99,82
+NSW,10104,South Coast,72073,Outer Regional,Quintile 2,81380,112913,35634,1167.2,1.13,80
+NSW,11201,Richmond Valley - Coastal,80412,Inner Regional,Quintile 2,64687,80445,34910,885.5,0.97,83
+Qld,30604,Port Douglas - Daintree,11882,Outer Regional,Quintile 2,9040,76083,34771,691.2,1.19,71
+NT,70104,Palmerston,35667,Outer Regional,Quintile 3,12376,34699,63039,363,1.5,62
+NT,70103,Litchfield,24923,Outer Regional,Quintile 3,9991,40088,60699,382.1,1.51,67
+NT,70102,Darwin Suburbs,57306,Outer Regional,Quintile 3,23417,40862,58269,459.1,1.37,71
+WA,50705,Rockingham,129308,Major Cities,Quintile 3,87024,67300,55752,553.3,1.06,78
+WA,50605,Kalamunda,59349,Major Cities,Quintile 3,35253,59399,54906,523.2,0.87,79
+WA,50606,Serpentine - Jarrahdale,27696,Major Cities,Quintile 3,12098,43681,54756,331.8,0.92,75
+NSW,11702,Marrickville - Sydenham - Petersham,57574,Major Cities,Quintile 3,19855,34486,54359,532.3,1,79
+NT,70101,Darwin City,28020,Outer Regional,Quintile 3,9675,34530,53226,327.4,0.95,67.5
+WA,50401,Bayswater - Bassendean,83741,Major Cities,Quintile 3,48322,57704,53091,719.8,1.05,82
+Qld,30103,Wynnum - Manly,71046,Major Cities,Quintile 3,45474,64007,53033,615.9,0.99,81
+Qld,30203,Nundah,40247,Major Cities,Quintile 3,21601,53670,52945,660,1.06,85
+WA,50602,Belmont - Victoria Park,73886,Major Cities,Quintile 3,40010,54151,52921,596.7,1.08,80
+WA,50403,Swan,133029,Major Cities,Quintile 3,72417,54437,52879,423.5,1.01,78
+Qld,30801,Central Highlands (Qld),29775,Outer Regional,Quintile 3,13262,44541,52160,291.2,0.94,75
+NSW,12403,Penrith,143452,Major Cities,Quintile 3,85097,59321,51716,548.8,1.15,77
+Qld,30204,Sandgate,60085,Major Cities,Quintile 3,39277,65369,51063,776.8,1.12,82
+NSW,12504,Parramatta,146708,Major Cities,Quintile 3,48780,33250,50721,635,1.13,82
+Vic,21001,Keilor,61472,Major Cities,Quintile 3,31912,51912,50436,718.9,0.79,82
+NSW,12303,Wollondilly,42215,Inner Regional,Quintile 3,27887,66059,50285,555.8,1.04,79
+WA,50201,Mandurah,99405,Major Cities,Quintile 3,92046,92596,50148,818.3,1.01,79
+Qld,31104,Jimboomba,46930,Major Cities,Quintile 3,30285,64533,49460,235.8,0.76,69
+Vic,21305,Wyndham,233138,Major Cities,Quintile 3,108424,46506,48975,312.6,0.97,75
+NSW,12405,St Marys,55427,Major Cities,Quintile 3,34542,62319,48960,545.9,1.29,76
+Qld,30101,Capalaba,74184,Major Cities,Quintile 3,51883,69938,48922,577.1,0.96,82
+SA,40105,Norwood - Payneham - St Peters,36443,Major Cities,Quintile 3,21977,60304,48495,958.1,1,84
+Vic,21304,Melton - Bacchus Marsh,160293,Major Cities,Quintile 3,97952,61108,48280,379.2,1.05,75
+Qld,30601,Cairns - North,54554,Outer Regional,Quintile 3,40604,74429,48053,377.8,0.89,71.5
+NSW,11904,Kogarah - Rockdale,145493,Major Cities,Quintile 3,59178,40674,47475,623.7,0.88,84
+Tas,60104,Hobart - South and West,33203,Inner Regional,Quintile 3,25025,75371,47388,723.3,0.99,83
+NSW,12003,Strathfield - Burwood - Ashfield,159133,Major Cities,Quintile 3,46057,28942,47262,613.1,0.92,85
+NSW,12404,Richmond - Windsor,37469,Major Cities,Quintile 3,23960,63945,47208,743.2,1.23,81
+Qld,31403,Strathpine,38496,Major Cities,Quintile 3,25972,67466,47108,512.7,1.02,78
+SA,40104,Campbelltown (SA),51633,Major Cities,Quintile 3,28748,55678,46320,755.8,0.78,85
+NSW,11903,Hurstville,132733,Major Cities,Quintile 3,51414,38735,46268,711,0.9,85
+Vic,21202,Casey - North,137519,Major Cities,Quintile 3,82302,59847,45689,540.7,1,80
+Qld,30906,Nerang,69402,Major Cities,Quintile 3,49163,70838,43110,521.5,0.9,79
+Vic,20202,Heathcote - Castlemaine - Kyneton,47826,Inner Regional,Quintile 3,43456,90862,42552,911.6,1.08,84
+Qld,30904,Gold Coast Hinterland,19023,Inner Regional,Quintile 3,14267,74997,42515,428.1,0.74,80
+Vic,20501,Baw Baw,49157,Inner Regional,Quintile 3,46036,93651,42464,769.8,1.02,80
+Qld,30501,Brisbane Inner,72244,Major Cities,Quintile 3,26751,37029,42173,506,1.11,82
+Vic,20102,Creswick - Daylesford - Ballan,28746,Inner Regional,Quintile 3,26131,90903,42166,903.8,1.17,80
+Qld,31602,Caloundra,82926,Major Cities,Quintile 3,72401,87308,42027,873.8,0.92,84
+Qld,30902,Coolangatta,55141,Major Cities,Quintile 3,43547,78973,41877,709,0.83,84
+Qld,30908,Robina,51508,Major Cities,Quintile 3,30837,59868,41583,711.8,0.96,83
+Qld,31607,Nambour,43662,Major Cities,Quintile 3,37499,85884,41003,813.5,1.09,80
+Vic,20402,Wangaratta - Benalla,46456,Inner Regional,Quintile 3,47720,102720,40920,1031.3,1.1,81
+Vic,20401,Upper Goulburn Valley,54270,Inner Regional,Quintile 3,55861,102931,39992,916.8,1.07,79
+Qld,31606,Sunshine Coast Hinterland,50898,Inner Regional,Quintile 3,40572,79713,39914,619.8,0.89,78
+WA,50901,Albany,60319,Outer Regional,Quintile 3,49700,82395,39440,798.2,1.04,81
+Vic,21704,Warrnambool,50888,Inner Regional,Quintile 3,42575,83664,39183,814.7,1.02,82
+NSW,10103,Snowy Mountains,19740,Outer Regional,Quintile 3,15546,78752,39054,882.9,1.14,79
+Qld,30909,Southport,61128,Major Cities,Quintile 3,53069,86816,38545,814.5,1.08,84
+WA,50103,Manjimup,23021,Outer Regional,Quintile 3,19649,85351,38037,783.8,1.05,78
+Tas,60302,Huon - Bruny Island,19708,Outer Regional,Quintile 3,19619,99548,37786,745.1,1.05,79
+Qld,31608,Noosa Hinterland,22667,Inner Regional,Quintile 3,20193,89087,37747,613.9,0.97,74
+Qld,30306,Sunnybank,52380,Major Cities,Quintile 3,19002,36278,37424,447.9,0.82,82
+WA,50701,Cockburn,106216,Major Cities,Quintile 4,55781,52516,55345,473.8,0.98,80
+NSW,12301,Camden,64212,Major Cities,Quintile 4,32253,50230,54843,491.1,1.02,83
+Qld,30202,Chermside,71772,Major Cities,Quintile 4,42584,59332,53499,658.6,0.86,83
+WA,50402,Mundaring,43138,Major Cities,Quintile 4,27184,63017,53103,535.2,0.81,80
+WA,50702,Fremantle,38691,Major Cities,Quintile 4,23754,61394,52553,784.7,1.06,82
+Vic,20602,Darebin - South,55271,Major Cities,Quintile 4,22908,41447,52413,591.1,0.91,84
+Vic,20803,Kingston,122522,Major Cities,Quintile 4,70969,57923,51342,703.1,0.86,84
+WA,50503,Wanneroo,194987,Major Cities,Quintile 4,97974,50247,51279,406.8,0.99,80
+SA,40107,Unley,38916,Major Cities,Quintile 4,19974,51327,51112,1151.2,1.09,88
+SA,40106,Prospect - Walkerville,28933,Major Cities,Quintile 4,14670,50705,50931,737.8,0.93,85
+Vic,20802,Glen Eira,157014,Major Cities,Quintile 4,66746,42510,50598,653.4,0.83,85
+Qld,31402,North Lakes,73908,Major Cities,Quintile 4,40043,54180,50522,462.7,1.06,83
+SA,40301,Holdfast Bay,34689,Major Cities,Quintile 4,24144,69602,50285,1047.7,0.91,85
+Vic,21002,Macedon Ranges,30739,Inner Regional,Quintile 4,19001,61815,50093,394.5,0.72,76
+NSW,12502,Carlingford,68864,Major Cities,Quintile 4,23463,34072,49448,560,0.85,81
+NSW,11503,Hawkesbury,25165,Inner Regional,Quintile 4,15107,60031,49265,455,0.91,77.5
+NSW,12401,Blue Mountains,78496,Major Cities,Quintile 4,52624,67040,49182,717.2,0.96,82
+SA,40205,Tea Tree Gully,95290,Major Cities,Quintile 4,65414,68648,48974,674.7,0.93,83
+Vic,20601,Brunswick - Coburg,91653,Major Cities,Quintile 4,38766,42297,48876,540.5,0.91,83
+Vic,21004,Sunbury,40978,Major Cities,Quintile 4,32065,78248,48684,497.1,0.9,79
+Vic,21104,Whitehorse - East,63597,Major Cities,Quintile 4,32821,51608,48341,637.7,0.75,85
+Vic,21303,Maribyrnong,87355,Major Cities,Quintile 4,38684,44283,47906,575.2,1.13,82
+SA,40302,Marion,92098,Major Cities,Quintile 4,66446,72147,47827,733.1,0.87,84
+NSW,11101,Lake Macquarie - East,123536,Major Cities,Quintile 4,85916,69548,47776,806.8,0.97,82
+SA,40102,Adelaide Hills,72967,Inner Regional,Quintile 4,47343,64883,47634,544.6,0.85,83
+WA,50603,Canning,97172,Major Cities,Quintile 4,49659,51105,47606,684,1.03,85
+Tas,60102,Hobart - North East,52867,Inner Regional,Quintile 4,48271,91307,47376,903.6,1.08,82
+Vic,21101,Knox,160712,Major Cities,Quintile 4,96299,59920,47080,603.2,0.92,83
+Qld,30305,Rocklea - Acacia Ridge,62075,Major Cities,Quintile 4,27196,43811,46758,542.4,1.23,82
+NSW,10703,Kiama - Shellharbour,92470,Major Cities,Quintile 4,78400,84785,46744,726.5,0.98,81
+Tas,60105,Hobart Inner,51872,Inner Regional,Quintile 4,31171,60091,46505,931.7,1.2,84
+Qld,30303,Mt Gravatt,74384,Major Cities,Quintile 4,33927,45611,46421,611.4,0.96,83
+Qld,30907,Ormeau - Oxenford,125111,Major Cities,Quintile 4,77730,62129,46340,381,0.95,77
+Qld,31304,Narangba - Burpengary,64693,Major Cities,Quintile 4,56247,86945,46020,562.6,1.12,81
+Vic,21201,Cardinia,97790,Major Cities,Quintile 4,68621,70172,45688,490.2,1.02,79
+Vic,20702,Manningham - West,95593,Major Cities,Quintile 4,40262,42118,45581,768.3,0.78,84
+NSW,10201,Gosford,173257,Major Cities,Quintile 4,134662,77724,45569,979.6,1.05,83
+Vic,20301,Barwon - West,19282,Inner Regional,Quintile 4,12498,64815,45405,676.3,1.29,81
+Vic,21205,Monash,184848,Major Cities,Quintile 4,74076,40074,45368,699,0.84,85
+Vic,20703,Whitehorse - West,107256,Major Cities,Quintile 4,45918,42811,45357,682.3,0.77,85
+Vic,21105,Yarra Ranges,154495,Major Cities,Quintile 4,102757,66512,44887,570.8,0.94,81
+NSW,10106,Young - Yass,36821,Inner Regional,Quintile 4,33174,90095,44368,926.5,1.24,79
+Qld,30905,Mudgeeraba - Tallebudgera,34504,Major Cities,Quintile 4,21463,62206,43376,467.9,1,82
+Vic,20303,Surf Coast - Bellarine Peninsula,73696,Inner Regional,Quintile 4,51209,69487,43081,741.8,0.87,84
+NSW,11402,Southern Highlands,49059,Inner Regional,Quintile 4,39825,81179,42474,961.9,0.98,84
+Qld,30901,Broadbeach - Burleigh,64491,Major Cities,Quintile 4,47347,73416,42230,642,0.83,81
+Qld,31601,Buderim,56284,Major Cities,Quintile 4,36979,65701,41886,666.5,0.8,85
+SA,40101,Adelaide City,23396,Major Cities,Quintile 4,8881,37959,41266,522.3,0.97,81
+WA,50101,Augusta - Margaret River - Busselton,52283,Inner Regional,Quintile 4,36093,69034,38600,678.7,0.97,83
+Qld,31605,Noosa,42626,Major Cities,Quintile 4,33539,78682,37361,823.3,0.87,84
+Qld,30910,Surfers Paradise,42883,Major Cities,Quintile 4,28952,67513,34301,548.4,0.79,81
+ACT,80106,South Canberra,27663,Major Cities,Quintile 5,12702,45915,73034,924.5,1.13,84
+NSW,12002,Leichhardt,59540,Major Cities,Quintile 5,19661,33022,69874,467.7,0.94,80
+NSW,12104,North Sydney - Mosman,100152,Major Cities,Quintile 5,29081,29037,69143,478,0.69,85
+ACT,80108,Weston Creek,23172,Major Cities,Quintile 5,14693,63408,66654,678.5,0.8,83
+ACT,80109,Woden Valley,35377,Major Cities,Quintile 5,17595,49735,65224,810.6,0.91,84
+ACT,80104,Gungahlin,72408,Major Cities,Quintile 5,20408,28185,63714,156,0.75,69
+ACT,80105,North Canberra,54105,Major Cities,Quintile 5,21425,39598,61641,527.7,0.91,85
+ACT,80107,Tuggeranong,85968,Major Cities,Quintile 5,52301,60838,61144,354.7,0.79,74
+NSW,12101,Chatswood - Lane Cove,117824,Major Cities,Quintile 5,33288,28252,60438,524.7,0.77,86
+NSW,12201,Manly,44994,Major Cities,Quintile 5,12910,28692,60000,462.3,0.7,85
+NSW,10102,Queanbeyan,59472,Major Cities,Quintile 5,34646,58256,59536,512.5,1.06,79
+ACT,80101,Belconnen,97830,Major Cities,Quintile 5,48508,49584,59093,464.5,0.88,79
+NSW,12001,Canada Bay,89595,Major Cities,Quintile 5,28521,31833,58196,515.6,0.73,84
+Qld,30502,Brisbane Inner - East,42844,Major Cities,Quintile 5,17045,39784,57856,342.6,0.83,79
+NSW,11801,Eastern Suburbs - North,136152,Major Cities,Quintile 5,46544,34185,57762,563,0.79,85
+NSW,12103,Ku-ring-gai,123474,Major Cities,Quintile 5,38689,31334,57641,618.4,0.64,87
+NSW,11602,Blacktown - North,95745,Major Cities,Quintile 5,30503,31859,56592,278,0.9,72
+Qld,30404,The Gap - Enoggera,52042,Major Cities,Quintile 5,24724,47508,56555,642.9,0.95,85
+NSW,11501,Baulkham Hills,148761,Major Cities,Quintile 5,51201,34418,56346,534.8,0.85,85
+WA,50607,South Perth,44154,Major Cities,Quintile 5,19563,44306,56311,726.1,1.01,84
+Vic,20605,Port Phillip,108569,Major Cities,Quintile 5,44035,40559,56236,485.7,0.96,80
+WA,50302,Perth City,107607,Major Cities,Quintile 5,47437,44083,55551,641.4,1.1,84
+NSW,12601,Pennant Hills - Epping,49288,Major Cities,Quintile 5,13165,26711,55399,511.5,0.68,85
+Qld,30402,Kenmore - Brookfield - Moggill,47388,Major Cities,Quintile 5,19040,40180,55371,588.8,0.86,85
+Qld,30503,Brisbane Inner - North,90782,Major Cities,Quintile 5,34118,37582,55102,404.4,0.84,78
+NSW,12802,Sutherland - Menai - Heathcote,111321,Major Cities,Quintile 5,52256,46941,55075,608.2,0.92,83
+Vic,20606,Stonnington - West,67798,Major Cities,Quintile 5,25206,37178,55000,503.8,0.72,84
+NSW,11802,Eastern Suburbs - South,149266,Major Cities,Quintile 5,55028,36866,54987,608.3,0.92,84
+Qld,30401,Centenary,33800,Major Cities,Quintile 5,15338,45380,54741,646.5,1.07,87
+NSW,12102,Hornsby,83456,Major Cities,Quintile 5,30801,36907,54737,495.9,0.79,85
+Vic,20607,Yarra,94234,Major Cities,Quintile 5,34377,36481,54625,419.8,0.92,79
+NSW,11504,Rouse Hill - McGraths Hill,34081,Major Cities,Quintile 5,12453,36540,54602,269,0.74,74
+Qld,31401,The Hills District,89224,Major Cities,Quintile 5,45938,51486,54488,305.2,0.8,78
+Qld,30301,Carindale,52345,Major Cities,Quintile 5,23344,44597,54476,587.2,0.89,83
+Qld,30504,Brisbane Inner - West,59386,Major Cities,Quintile 5,19251,32416,54255,365.5,0.87,81
+WA,50501,Joondalup,161288,Major Cities,Quintile 5,84549,52421,53929,460.6,0.79,81
+Vic,20801,Bayside,102737,Major Cities,Quintile 5,46417,45180,53926,816,0.8,87
+Qld,30201,Bald Hills - Everton Park,42300,Major Cities,Quintile 5,23553,55682,53763,580.1,0.8,81
+WA,50704,Melville,105106,Major Cities,Quintile 5,53245,50658,53754,614.9,0.72,83.5
+WA,50301,Cottesloe - Claremont,71252,Major Cities,Quintile 5,26513,37211,53508,690.4,0.86,85
+WA,50502,Stirling,201306,Major Cities,Quintile 5,108846,54070,53384,603.7,0.87,83
+NSW,12801,Cronulla - Miranda - Caringbah,114106,Major Cities,Quintile 5,56760,49744,53060,763.4,0.84,84
+NSW,12203,Warringah,157846,Major Cities,Quintile 5,59881,37936,52999,681.1,0.83,86
+Vic,20804,Stonnington - East,43808,Major Cities,Quintile 5,16480,37618,52755,623.6,0.81,85
+Vic,20603,Essendon,70367,Major Cities,Quintile 5,29320,41668,52676,601.3,0.92,84.5
+NSW,12602,Ryde - Hunters Hill,140873,Major Cities,Quintile 5,47124,33451,52575,647,0.83,85
+Vic,20701,Boroondara,177361,Major Cities,Quintile 5,64896,36590,52344,649.2,0.79,86
+Qld,30302,Holland Park - Yeronga,74852,Major Cities,Quintile 5,33506,44763,51905,589.5,1.1,82
+Vic,20901,Banyule,127693,Major Cities,Quintile 5,72971,57146,51047,698.5,0.88,84
+SA,40103,Burnside,45464,Major Cities,Quintile 5,24303,53456,50704,834.7,0.8,85
+SA,40303,Mitcham,65069,Major Cities,Quintile 5,37802,58095,50592,812.2,0.89,85
+Vic,20903,Nillumbik - Kinglake,68270,Major Cities,Quintile 5,32999,48337,49381,366,0.81,81
+NSW,12202,Pittwater,63504,Major Cities,Quintile 5,27517,43331,48793,781,0.91,86
+Qld,30304,Nathan,40630,Major Cities,Quintile 5,21047,51801,48106,502.3,0.83,82
+NSW,11703,Sydney Inner City,230326,Major Cities,Quintile 5,68819,29879,48000,316.8,0.85,72
+Qld,30403,Sherwood - Indooroopilly,53907,Major Cities,Quintile 5,15798,29306,48000,391.9,0.72,85
+Vic,21103,Maroondah,114524,Major Cities,Quintile 5,71983,62854,47953,759.6,1.03,84
+Qld,30102,Cleveland - Stradbroke,85516,Major Cities,Quintile 5,65794,76938,47841,719.4,0.89,82
+NSW,11502,Dural - Wisemans Ferry,27076,Major Cities,Quintile 5,13748,50774,47456,660.6,0.87,84.5
+Vic,21102,Manningham - East,27426,Major Cities,Quintile 5,12763,46536,46507,665.8,0.86,85
+Vic,21402,Mornington Peninsula,160862,Major Cities,Quintile 5,135314,84118,42100,930.9,0.93,83
+Vic,20604,Melbourne City,148041,Major Cities,Quintile 5,32495,21950,40199,270.6,0.85,80
